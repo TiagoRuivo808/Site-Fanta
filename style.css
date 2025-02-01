@@ -230,3 +230,65 @@ body::-webkit-scrollbar{
     transition: 0.3s;
 }
 
+/* Tela menor que 768px (Tablets e celulares) */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 15vw; /* Ajusta o tamanho do título */
+    }
+
+    #fanta, #laranja-cortada, #laranja, #folha, #folha2, #folha3 {
+        width: 50%;
+    }
+
+    .two {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .right-side h2 {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .three {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .card h3 {
+        font-size: 5vw;
+    }
+
+    .card button {
+        font-size: 4vw;
+        padding: 10px 20px;
+    }
+}
+
+
